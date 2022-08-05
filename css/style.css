@@ -1,0 +1,275 @@
+* {
+  font: 16px arial, sans-serif;
+}
+
+/* Nav - START */
+
+.header {
+  list-style-type: none;
+  margin: 10px;
+  overflow: hidden;
+  margin-right: 16px;
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+
+.headerli a {
+  display: block;
+  color: rgba(0, 0, 0, .87);
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+
+.headerli a:hover {
+  text-decoration: underline;
+}
+
+ul.header li.pic a img {
+  border-radius: 50%;
+}
+
+
+
+/* Nav - END */
+
+/* Google Img - START */
+
+div.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  width: 272px;
+  height: 92px;
+}
+
+/* Google Img - END */
+
+
+/* Section Search - START */
+.search-area {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  margin-top: -74px;
+  width: 582px;
+  border-radius: 24px;
+}
+
+.search-area:hover {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+
+}
+
+.search-img {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+.search-img span {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+
+.input-enter {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.input-area {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+
+  line-height: 34px;
+  height: 34px !important;
+  display: block;
+
+}
+
+.input {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -68px;
+  font: 16px;
+  line-height: 34px;
+  height: 34px !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: textfield;
+  cursor: text;
+  border: transparent;
+  width: 100%;
+}
+
+div.search div.search-voice {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+div.search div.search-voice img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+
+}
+
+/* Section Search - END */
+
+/* Search Button - START */
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+
+.buttons a button {
+  border: none;
+  font-size: 14px;
+  height: 36px;
+  color: #3c4043;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+
+.buttons a button:hover {
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.googlesearch {
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+
+}
+
+.feelinglucky {
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+div.offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4d5156;
+
+}
+
+div.offer p {
+  font-size: small;
+}
+
+div.offer a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #1a0dab;
+  font-size: small;
+}
+
+/* Search Button - END */
+
+/* Footer - Start */
+
+.country-footer {
+  color: #70757a;
+  background: #f2f2f2;
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  padding-left: 20px;
+  margin: 0;
+  font-size: 15px;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #dfe1e5;
+  border-top: 1px solid #dadce0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: -8px;
+  line-height: 10px;
+  list-style: none;
+  background: #f2f2f2;
+}
+
+.footerli {
+  float: left;
+}
+
+.footerli a {
+  display: block;
+  color: #70757a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-right: -20px;
+}
+
+.footerli a:hover {
+  text-decoration: underline;
+}
+
+/* Footer - END */
